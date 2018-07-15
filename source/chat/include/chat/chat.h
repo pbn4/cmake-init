@@ -4,10 +4,10 @@
 
 #include <string>
 
-#include <baselib/baselib_api.h>
+#include <chat/chat_api.h>
 
 
-namespace baselib
+namespace chat
 {
 
 
@@ -15,7 +15,7 @@ namespace baselib
 *  @brief
 *    Print information about the library to the console
 */
-BASELIB_API void printInfo();
+CHAT_API int getValue();
 
 
-} // namespace baselib
+} // namespace chat
